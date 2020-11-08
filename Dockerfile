@@ -1,25 +1,32 @@
-FROM ubuntu:18.04
+FROM clearlinux/tesseract-ocr:latest
 
 RUN mkdir /app_data_extract
 WORKDIR /app_data_extract
 
 ADD . /app_data_extract
 
-RUN apt-get update \
-    && apt-get install tesseract-ocr -y \
-    python3 \
-    #python-setuptools \
-    python3-pip \
-    poppler-utils \
-    awscli \
-    && apt-get clean \
-    && apt-get autoremove
+ARG swupd_args
+# Move to latest Clear Linux release to ensure
+# that the swupd command line arguments are
+# correct
+RUN swupd update --no-boot-update $swupd_args
+
+RUN swupd bundle-add python3-tcl
+RUN swupd bundle-add cloud-control
+RUN swupd bundle-add poppler
+    # rm -rf /var/cache/apt/* /var/lib/apt/lists/* && \
+    # rm -rf /tmp/* /var/tmp/*
 
 RUN python3 -m pip install --no-cache-dir --upgrade \
         setuptools \
         wheel
 
 RUN python3 -m pip install virtualenv
+
+## this step is required to move trained languages to tessdata directory
+COPY eng.traineddata /usr/share/tessdata/
+COPY ara.traineddata /usr/share/tessdata/
+COPY osd.traineddata /usr/share/tessdata/
 
 RUN virtualenv ../ocrevn
 RUN ../ocrevn/bin/pip install -r ./requirements.txt
