@@ -19,10 +19,8 @@ Make sure you have docker installed <br>
 <br>
 ##### run container in detached mode
 <br>
-```bash
- - docker run -d --name ocr_pdf_model_con ocr_pdf_model  
- ``` 
+```bash  docker run -d --name ocr_pdf_model_con ocr_pdf_model  ``` 
  
 ##### access the container terminal 
-```bash 
- - docker exec -it ocr_pdf_model_con bash
+<br>
+```bash docker exec -it ocr_pdf_model_con bash
