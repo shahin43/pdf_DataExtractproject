@@ -34,8 +34,8 @@ once in the container, execute below steps to activate python environment and ru
 ``` 
 $ source ../ocrevn/bin/activate. ## activates the env ocrevn
 ``` 
-NOTE : python script, retrieves pdf files from s3bucket. Script takes *s3bucket*, *s3prefix*  as arguments, which is required
-       awscli is part of build, you need to provide required aws key and secret to access the bucket, which needs to process the pdfs
+NOTE : python script, retrieves pdf files from s3bucket. Script takes *s3bucket*, *s3prefix*  as arguments, 
+       requires awscli, its part of build, you need to provide respective aws key and secret with IAM permissions to access the bucket, to process the pdfs in s3.
        
 command for configuring awscli 
 ``` 
