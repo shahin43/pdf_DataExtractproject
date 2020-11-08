@@ -17,10 +17,10 @@ Make sure you have docker installed <br>
 
 #### once image is build, then run following command to run container and get into container 
 <br>
-##### run container in detached mode
+#### run container in detached mode
 <br>
 ```bash  docker run -d --name ocr_pdf_model_con ocr_pdf_model  ``` 
  
-##### access the container terminal 
+#### access the container terminal 
 <br>
 ```bash docker exec -it ocr_pdf_model_con bash
