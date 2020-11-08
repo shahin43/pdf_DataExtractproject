@@ -46,4 +46,5 @@ once awscli is configured properly, you can execute the script as below
 ```
 $ python pdfDataextract.py --s3bucket 'S3 bucket name' --s3prefix 'S3 prefix'
 ``` 
+The script process the pdfs to images, based on number on pages in pdf document. Does preprocessing, text detection and dumps data for each pdf into *extracted_data* folder, generating a .txt file for each pdf document. In production env, extracted content should be pushed into NoSQL db or Elastic search for retriveing easily using an API.
 
