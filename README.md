@@ -37,7 +37,7 @@ $ source ../ocrevn/bin/activate. ## activates the env ocrevn
 NOTE : python script, retrieves pdf files from s3bucket. Script takes *s3bucket*, *s3prefix*  as arguments, 
        requires awscli, its part of build, you need to provide respective aws key and secret with IAM permissions to access the bucket, to process the pdfs in s3.
        
-command for configuring awscli 
+command for configuring awscli credentials, then provide AWS KEY & SECRET
 ``` 
 $ aws configure 
 ``` 
