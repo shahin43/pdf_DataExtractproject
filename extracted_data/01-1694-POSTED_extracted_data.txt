@@ -1,0 +1,41 @@
+
+
+Page_1
+--------------------- 
+
+"line_1" : {"content": "EST.", "y_min": 26, "y_max": 26, "x_min": 88, "x_max": 88}
+"line_2" : {"content": "Bee | ", "y_min": 134, "y_max": 147, "x_min": 2726, "x_max": 2842}
+"line_3" : {"content": "ARGA | ATORY | fi | عطوراي | رقى", "y_min": 130, "y_max": 204, "x_min": 87, "x_max": 2543}
+"line_4" : {"content": "For | Trading | Arga | Atbry | Est | للتجارة", "y_min": 301, "y_max": 350, "x_min": 320, "x_max": 2260}
+"line_5" : {"content": "Perfumes | Incense | luxurious | كماليات | بخورات | عطورات", "y_min": 401, "y_max": 425, "x_min": 95, "x_max": 2622}
+"line_6" : {"content": "VAT | No. | 300784768 | 0000", "y_min": 483, "y_max": 497, "x_min": 1124, "x_max": 1616}
+"line_7" : {"content": "الفاتورة | رقم | ie | صفحة", "y_min": 555, "y_max": 590, "x_min": 1818, "x_max": 2690}
+"line_8" : {"content": "ودح | شخص | شن | سنت | شركة | 01", "y_min": 646, "y_max": 725, "x_min": 701, "x_max": 1906}
+"line_9" : {"content": "it | 10520", "y_min": 766, "y_max": 779, "x_min": 941, "x_max": 1112}
+"line_10" : {"content": "السم | السعودية | 31444 | مبيعات | تورة", "y_min": 814, "y_max": 825, "x_min": 789, "x_max": 1552}
+"line_11" : {"content": "310428442600003 | SALESMAN", "y_min": 862, "y_max": 876, "x_min": 838, "x_max": 1798}
+"line_12" : {"content": "محمد | معتل", "y_min": 1027, "y_max": 1027, "x_min": 2614, "x_max": 2724}
+"line_13" : {"content": "الصف | رقم | وحدة | الكملا | الوحدة | القيمة | الصاك", "y_min": 1116, "y_max": 1138, "x_min": 94, "x_max": 2657}
+"line_14" : {"content": "ren | nal | الكملشى | Soll | attr | خصم | tea", "y_min": 1106, "y_max": 1184, "x_min": 73, "x_max": 2611}
+"line_15" : {"content": "OO11314 | 6م | توليت | بري | ماستر | ws | 4.00 | 4129.00 | 0.00 | 429.00", "y_min": 1249, "y_max": 1296, "x_min": 171, "x_max": 2670}
+"line_16" : {"content": "0012179 | كبير | بوركيمي | دزاير | خلفت | دولس | aus | 1.00 | 285.00 | 0.00 | 285.00", "y_min": 1338, "y_max": 1382, "x_min": 169, "x_max": 2668}
+"line_17" : {"content": "0010840 | هلام | نساي | ون | ذا | دولسي | ass | 6.00 | 170.00 | 0.00 | 1026.00", "y_min": 1424, "y_max": 1470, "x_min": 168, "x_max": 2647}
+"line_18" : {"content": "0011177 | كبير | جديد | راسينق | ايكون | دنهل | is | 6.00 | 114.00 | 000 | 684.00", "y_min": 1511, "y_max": 1557, "x_min": 172, "x_max": 2666}
+"line_19" : {"content": "00111511 | كبير | بلوم | جتشي | 240.00 | 0.00 | 960.00", "y_min": 1597, "y_max": 1644, "x_min": 169, "x_max": 2666}
+"line_20" : {"content": "0011628 | مم | رجالي | انتس | ابيض | كارلوف | 4.00 | 430.00 | 0.00 | 430.00", "y_min": 1683, "y_max": 1729, "x_min": 166, "x_max": 2667}
+"line_21" : {"content": "0010678 | رد | برفيوم | لي | لاليك | عطر | بة | 3.00 | 8900 | 267.00", "y_min": 1769, "y_max": 1816, "x_min": 165, "x_max": 2663}
+"line_22" : {"content": "0010792 | عود | ليذر | لانكوم | بة | 1.00 | 0.060 | 280.00", "y_min": 1858, "y_max": 1903, "x_min": 164, "x_max": 2663}
+"line_23" : {"content": "0010390 | Ae | ble | eal | 1.00 | 175.00 | 0.00 | 175.00", "y_min": 1954, "y_max": 1991, "x_min": 162, "x_max": 2664}
+"line_24" : {"content": "OO12161 | ales | ashy | hd | we | and | ag | ys | 3.00 | 38900 | 0.00 | 4467.00", "y_min": 2037, "y_max": 2079, "x_min": 160, "x_max": 2644}
+"line_25" : {"content": "0011198 | كبير | انتس | اومو | فلنتينو | بة | 1.00 | 00 | 0.00 | 250.00", "y_min": 2123, "y_max": 2167, "x_min": 165, "x_max": 2660}
+"line_26" : {"content": "RERRERER | Nothi | Fallo | ", "y_min": 2212, "y_max": 2221, "x_min": 954, "x_max": 1615}
+"line_27" : {"content": "اا | عم", "y_min": 2670, "y_max": 2676, "x_min": 1421, "x_max": 2339}
+"line_28" : {"content": "a4 | a", "y_min": 2799, "y_max": 2804, "x_min": 2265, "x_max": 2526}
+"line_30" : {"content": "له", "y_min": 2886, "y_max": 2886, "x_min": 2129, "x_max": 2129}
+"line_32" : {"content": "28 | GROSS | TOTAL | المجموع | .", "y_min": 3063, "y_max": 3091, "x_min": 1538, "x_max": 2511}
+"line_33" : {"content": "fh | fs | bas | Bi | Os", "y_min": 3219, "y_max": 3266, "x_min": 2294, "x_max": 2760}
+"line_34" : {"content": "را | NETTOTAL", "y_min": 3267, "y_max": 3267, "x_min": 0, "x_max": 1740}
+"line_35" : {"content": "wh", "y_min": 3385, "y_max": 3385, "x_min": 2216, "x_max": 2216}
+"line_36" : {"content": "Qt | Receivel | ار | من | المستلم", "y_min": 3470, "y_max": 3507, "x_min": 825, "x_max": 2695}
+"line_37" : {"content": "15915 | فاكس | 578477 | السعودية | العريية | المملكة", "y_min": 3621, "y_max": 3630, "x_min": 59, "x_max": 2504}
+"line_38" : {"content": "ee | im | ag", "y_min": 3716, "y_max": 3719, "x_min": 1153, "x_max": 1888}
