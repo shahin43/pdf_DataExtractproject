@@ -15,12 +15,12 @@ Make sure you have docker installed <br>
 ```  
 $ docker image build -t ocr_pdf_model . 
 ```
-<br>
+
 #### once image is build, then run following command to run container and get into container 
 ```
 $ docker run -d --name ocr_pdf_model_con ocr_pdf_model
 ``` 
-<br>
+
 ```  
 $ docker exec -it ocr_pdf_model_con bash 
 ```
