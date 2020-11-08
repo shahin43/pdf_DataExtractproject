@@ -19,8 +19,6 @@ import argparse
 s3 = boto3.resource('s3')
 s3client = boto3.client('s3')
 
-# s3bucket = 'meabi-datalake-test'
-# s3prefix = 'temp/test_pdfs/'
 
 def download_s3Objs(s3bucket, s3prefix):
     ## read s3 objs from the args passed
@@ -101,7 +99,8 @@ def createJsonData(filepath, filename):
 
     
 
-
+#############################################
+#### main class for Image processing 
 class ImageProcessingModel():
     
     def __init__(self, OrgImg):
@@ -352,7 +351,6 @@ def main():
     print('''NOTE : this is demo data extract, in production use case instead of publishing data ''' \
     	         '''to file, data extract can be pushed to NoSQL DB like Dynamodb/MongoDB or even Elastic search  '''
     	         '''for exposing data to APIs''')
-
 
 
 
