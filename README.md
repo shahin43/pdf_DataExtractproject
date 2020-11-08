@@ -16,9 +16,6 @@ Make sure you have docker installed <br>
 <br>
 
 #### once image is build, then run following command to run container and get into container 
+```bash  docker run -d --name ocr_pdf_model_con ocr_pdf_model``` 
 <br>
-
-```bash  docker run -d --name ocr_pdf_model_con ocr_pdf_model```
- 
-<br>
-```bash  docker exec -it ocr_pdf_model_con bash```
+```bash  docker exec -it ocr_pdf_model_con ```
