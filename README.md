@@ -1,6 +1,6 @@
 # PDF dataExtractproject Overview
 Project for extracting content from pdfs/ images. 
-It uses Optical Character Recognition for extracting information from PDFs. Its difficult to extract details from digital invoices or scanned copies for invoices using python libraries like PDFMiner. Libraries that I used for developing this solution were pdf2image (for converting PDF to images), OpenCV (for Image pre-processing) and finally PyTesseract for OCR along with Python.
+It uses Optical Character Recognition for extracting information from PDFs. Its difficult to extract details from digital invoices or scanned copies for invoices using python libraries like PDFMiner. Libraries that I used for developing this solution is pdf2image (for converting PDF to images), OpenCV (for Image pre-processing) and finally PyTesseract for OCR along with Python.
 
 This projects converts PDFs to page images using pdf2image (for converting PDF to images), later processing the Images using OpenCV and then finally using Tesseract OCR version >4 (using PyTesseract for OCR ) for retrieving details from the PDF images.
 
